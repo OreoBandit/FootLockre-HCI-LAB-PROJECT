@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOOTLOCKRE</title>
+    <script src="./subscribe-script.js" defer></script>
+    <link rel="stylesheet" href="./subscribe-style.css">
+</head>
+
+<body>
+    <div class="background-web">
+        <!-- NAVBAR -->
+        <section class="navbar-homepage">
+            <div class="navbar">
+                <div class="navbar-logo">
+                    <img src="../Asset/Image/Logo/LOGO - LIGHT.png" alt="" class="image-logo">
+                </div>
+                <div class="navbar-isi">
+                    <a href="../Homepage/index.html" class="navbar-isi-item">Home</a>
+                    <a href="../AboutUsPage/about-us.html" class="navbar-isi-item">About us</a>
+                    <a href="../ShoesPage/shoes.html" class="navbar-isi-item">Shoes</a>
+                    <a href="../EventsPage/events.html" class="navbar-isi-item">Events</a>
+                    <a href="./subscribe.html" class="navbar-isi-item">Subscribe</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- BURGER MENU UNTUK NAVBAR -->
+        <div class="burger-menu">
+            <!-- <a id="burger-menu-navbar" onclick="navMhide()"> -->
+            <img id="btn-nav-mobile" src="../Asset/Image/Logo/burger icon.png" alt="">
+            <!-- </a> -->
+
+
+            <!-- PENGGANTI NAVBAR -->
+            <div class="container-sidebar" id="navbar-mobile">
+                <a href="../Homepage/index.html" class="navbar-isi-item">Home</a>
+                <a href="../AboutUsPage/about-us.html" class="navbar-isi-item">About us</a>
+                <a href="../ShoesPage/shoes.html" class="navbar-isi-item">Shoes</a>
+                <a href="../EventsPage/events.html" class="navbar-isi-item">Events</a>
+                <a href="./subscribe.html" class="navbar-isi-item">Subscribe</a>
+            </div>
+        </div>
+
+        <div class="container-daftar">
+            <img src="../Asset/Image/Logo/LOGO - LIGHT.png" alt="">
+
+            <h3 class="judul">SUBSCRIPTION
+            </h3>
+
+
+            <form id="formContainer" class="form-container">
+                <!-- NAME -->
+                <h3 class="label-input">Name</h3>
+                <input class="input-field" id="inputName" name="name" type="text" placeholder="more than 3 characters">
+                <br>
+
+                <!-- EMAIL -->
+                <h3 class="label-input">Email</h3>
+                <input class="input-field" id="inputEmail" name="email" type="text"
+                    placeholder="has to contain @ and .com">
+                <br>
+
+                <!-- PHONE -->
+                <h3 class="label-input">Phone</h3>
+                <input class="input-field" id="inputPhone" name="phone" type="phone" placeholder="number only">
+                <br>
+                <br>
+
+                <!-- SELECT COUNTRY -->
+                <label class="country-label" for="country">Country:</label>
+                <select class="input-country" id="inputCountry" name="country">
+                    <option value="default">Select a country</option>
+                    <option value="Indonesia">Indonesia</option>
+                    <option value="America">America</option>
+                    <option value="Japan">Japan</option>
+                </select>
+                <br> <br>
+
+                <!-- TERMS AND CONDITIONS -->
+                <input class="user-tos" id="userTos" name="TOS" type="checkbox" value="Agree">
+                <label for="TOS">I agree to terms and conditions</label>
+                <br> <br>
+
+                <p id="error" class="error-warning"></p>
+                <p id="success" class="success-warning"></p>
+                <!-- <input class="btn-submit" id="btnSubmit" type="submit" value="Subscribe"> -->
+
+                <div class="btn-submit-container">
+                    <input class="btn-submit" id="btnSubmit" type="submit" value="Subscribe">
+                </div>
+        </div>
+
+
+
+        <!-- FOOTER -->
+        <section>
+            <div class="footer-container">
+
+                <div class="footer-atas">
+                    <div class="logo-menu">
+
+                        <div class="logo-img">
+                            <img src="../Asset/Image/Logo/LOGO - LIGHT - ALT.png" alt="">
+                        </div>
+
+                        <div class="footer-menu">
+                            <h4 id="footer-about-us">About us</h4>
+                            <h4 id="footer-events">Events</h4>
+                            <h4>Privacy Policy</h4>
+                            <h4>License Agreement</h4>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="footer-payments">
+                    <img src="../Asset/Image/Logo/Payments.png" alt="">
+                </div>
+
+            </div>
+
+            <div class="nim-nama">
+                <h4 class="text">© Footlockre | 2501961180 - Muhammad Brahmantyo Oktaviga</h4>
+
+            </div>
+        </section>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
